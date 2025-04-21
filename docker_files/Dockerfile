@@ -1,6 +1,7 @@
 FROM continuumio/anaconda3:2019.03
 
 # kaggle
+//oath
 RUN apt-get update  && apt-get install -y build-essential unzip && \
     conda update -y conda && conda update -y python && \
     pip install --upgrade pip && \
