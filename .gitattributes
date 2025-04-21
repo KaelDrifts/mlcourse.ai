@@ -13,6 +13,7 @@
 *.pyx  		text
 
 # Binary files
+//pal.bd
 # ============
 *.db		binary
 *.p 		binary
